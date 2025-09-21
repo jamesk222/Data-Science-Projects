@@ -1,0 +1,56 @@
+{
+    "features": [
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V5",
+        "V6",
+        "V7",
+        "V8",
+        "V9",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "V14",
+        "V15",
+        "V16",
+        "V17",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V22",
+        "V23",
+        "V24",
+        "V25",
+        "V26",
+        "V27",
+        "V28",
+        "Amount",
+        "log_amount",
+        "hour",
+        "minutes"
+    ],
+    "threshold": 0.52,
+    "training_date": "2025-09-18 10:13:23",
+    "cv_results": {
+        "best_score": 0.9999943595806966,
+        "best_params": {
+            "clf__subsample": 0.8,
+            "clf__reg_lambda": 5,
+            "clf__reg_alpha": 1,
+            "clf__n_estimators": 800,
+            "clf__max_depth": 9,
+            "clf__learning_rate": 0.1,
+            "clf__colsample_bytree": 0.5
+        }
+    },
+    "test_performance": {
+        "precision": 0.77,
+        "recall": 0.88,
+        "f1": 0.82,
+        "roc_auc": 0.98
+    }
+}
