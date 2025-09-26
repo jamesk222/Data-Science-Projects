@@ -21,7 +21,7 @@ The goal: help banks and fintech companies **reduce financial losses** and **inc
 
 ---
 
-## 🔬 What We Did
+## What We Did
 
 1. **Exploratory Data Analysis (EDA)**
 
@@ -47,17 +47,17 @@ The goal: help banks and fintech companies **reduce financial losses** and **inc
 
 ---
 
-## 📈 Results
+##  Results
 
 * **Logistic Regression (baseline)**: Solid, interpretable, but limited.
 * **Random Forest**: Higher recall, better fraud detection but more false positives.
 * **XGBoost (final choice)**: Best balance of precision + recall, with **ROC-AUC > 0.98** and strong PR AUC.
 
-👉 Final model: **XGBoost in a production-ready pipeline**.
+ Final model: **XGBoost in a production-ready pipeline**.
 
 ---
 
-## ⚙️ Reproduction Steps
+##  Reproduction Steps
 
 ### 1️⃣ Clone the repo
 
@@ -104,9 +104,7 @@ payload = {"transactions": [{
 }]}
 
 print(requests.post(url, json=payload).json())
-```
 
----
 
 ##  Achievements
 
